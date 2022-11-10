@@ -1,10 +1,13 @@
 import './App.css';
-import { Navbar } from './Compoments/Navbar';
+import { Hero } from './Compoments/Hero';
+import { NavBar } from './Compoments/NavBar';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <NavBar />
+      <hr />
+      <Hero />
     </div>
   );
 }

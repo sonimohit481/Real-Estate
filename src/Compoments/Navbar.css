@@ -1,21 +1,59 @@
 #Nav {
-    border: 1px solid red;
-    display: flex;
     width: 95%;
     margin: auto;
-    align-content: stretch;
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
     flex-direction: row;
-
+    justify-content: space-around;
 }
 
 #Subnav1 {
     display: flex;
+    width: 10%;
     align-items: center;
 }
 
 #Subnav2 {
-    width: 70%;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#Subnav2_left button {
+    padding: 10px 16px;
+    margin: 3px 0px;
+    border-radius: 10px;
+    border: none;
+    background: none;
+}
+
+#Subnav2_left a:hover>button {
+    background-color: #E7E5F6;
+    color: #736AE5;
+}
+
+#Subnav2_right {
+    width: 16%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#Subnav2_right>button {
+
+    border: 1px solid #E8E7F0;
+    padding: 10px 20px;
+    background: none;
+    border-radius: 10px;
+}
+
+#Subnav2_right #SubnavSignup {
+
+    color: #E7E5F6;
+    background-color: #736AE5;
+    border-radius: 10px;
 }
