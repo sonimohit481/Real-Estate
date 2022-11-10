@@ -1,0 +1,46 @@
+#FilterSection {
+    border: 1px solid red;
+    width: 70%;
+    height: 300px;
+    margin: auto;
+}
+
+#filter_text {
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#filterheadding {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#foltersearchbox {
+    display: flex;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    /* width: 20%; */
+    align-items: center;
+    border: 1.5px solid rgb(243, 243, 243);
+    border-radius: 5px;
+}
+
+#foltersearchbox input {
+    border: none;
+}
+
+#filter_main {
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    width: 93%;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    border: 1px solid black;
+}

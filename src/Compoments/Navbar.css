@@ -2,6 +2,7 @@
     width: 95%;
     margin: auto;
     display: flex;
+
     justify-content: flex-start;
     align-items: center;
     flex-direction: row;
@@ -29,6 +30,7 @@
     border-radius: 10px;
     border: none;
     background: none;
+    font-weight: 700;
 }
 
 #Subnav2_left a:hover>button {
@@ -49,6 +51,7 @@
     padding: 10px 20px;
     background: none;
     border-radius: 10px;
+    font-weight: 700;
 }
 
 #Subnav2_right #SubnavSignup {

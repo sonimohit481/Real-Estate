@@ -1,0 +1,61 @@
+#CardSection {
+    /* border: 1px solid green; */
+    box-sizing: border-box;
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    gap: 20px;
+    padding: 10px;
+    justify-content: space-around;
+
+}
+
+.CardSectionMain {
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+.CardImage img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.price_fav span {
+    display: flex;
+    color: #736AE5;
+    font-size: 24px;
+    font-weight: 800;
+    align-items: center;
+}
+
+.price_fav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.price_fav .Favbtn {
+    font-size: 24px;
+    font-weight: 800;
+    background-color: blue;
+    border-radius: 100%;
+    padding: 5px;
+    color: white;
+}
+
+.card_name_loc {
+    padding: 10px;
+}
+
+.card_name_loc p:first-child {
+    padding: 10px;
+}
+
+.card_name_loc p:last-child {
+    padding: 10px;
+}
